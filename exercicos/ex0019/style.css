@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(0, 255, 128, 0.205);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0)
+}
+h1{
+    color: rgb(233, 44, 154);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(0, 60, 255);
+    color: aliceblue;
+}
+
+
+h2{
+    color: blueviolet;
+}
+#segundo{  /* o ID funciona, mas não é corretor usa ele segundo a W3C */
+    background-color: darkgreen;
+    color: wheat;
+    text-align: center;
+}
+.int{ /* o corretor é usa o CLASS para alter mais de um elemento */
+    background-color: rgb(238, 120, 120);
+    color: blue;
+    text-align: center;
+    font-weight: lighter;
+}
+.avan{
+    background-color: black;
+    color: blue;
+}
+.lor{
+    background-color: red;
+    color: yellow;
+}
+.dest{
+    color: black;
+    text-align: end ;
+}
+
+
